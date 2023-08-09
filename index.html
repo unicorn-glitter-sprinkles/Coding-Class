@@ -16,3 +16,14 @@
 <p>&#128512;</p>
 <p>&#128511;</p>
 <video src="">https://www.youtube.com/watch?v=jgZxKSYfTcs&pp=ygURY3JhenkgcmF0YXRvdWlsbGU%3D</video>
+<script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    // Create gradient
+    var grd = ctx.createLinearGradient(0,0,200,0);
+    grd.addColorStop(0,"red");
+    grd.addColorStop(1,"white");
+    // Fill with gradient
+    ctx.fillStyle = grd;
+    ctx.fillRect(10,10,150,80);
+    </script>
